@@ -15,6 +15,8 @@ export default async function Home() {
           key={user.id}
           name={`${user.first_name} ${user.last_name}`}
           email={user.email}
+          avatar={user.avatar}
+          id={user.id}
         ></UserCard>
       ))}
     </div>
